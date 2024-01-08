@@ -5,23 +5,21 @@
 <title>Plantilla</title>
 <link>https://jrborruecos.github.io/Trabajos/</link>
 <description> Ciclo superior de administración en sistemas y redes </description>
-<category>ciclos/asignaturas/</category>
+<category>asignatura</category>
 <copyright>1º ASIR - LMSGI</copyright>
 <image>
-<url>https://github.com/jrborruecos/Trabajos/blob/main/pages/Base%20de%20datos.html</url>
-<title>Plantilla</title>
-<link>https://jrborruecos.github.io/Trabajos/</link>
+<url>imagenes/RSS.png</url>
 <width>30</width>
 <height>30</height>
 </image>
 <language>es-es</language>
 <lastBuildDate>Sun, 06 Ene 2024 12:15:00 +0100</lastBuildDate>
-<webMaster>i42osose@gmail.com</webMaster>
+<webMaster>ruboje_aliesma2324@iesmedinaazahara.es</webMaster>
 <!-- Noticias del canal -->
 <item>
 <title>Base de Datos</title>
 <description>En este artículo encontrará información sobre la asignatura Base de Datos</description>
-<link>https://github.com/jrborruecos/Trabajos/blob/main/pages/Lenguaje%20de%20marcas.html</link>
+<link>https://jrborruecos.github.io/Trabajos/pages/Base%20de%20datos.html</link>
 <author>ruboje_aliesma2324@iesmedinaazahara.es</author>
 <category>asignaturas</category>
 <enclosure url="https://youtu.be/VupykmeN-xM" type="video" length="32572719"/>
@@ -30,15 +28,15 @@
 <item>
 <title>Lenguaje de marcas</title>
 <description>En este artículo encontrará información sobre la asignatura Lenguaje de marcas</description>
-<link>https://github.com/jrborruecos/Trabajos/blob/main/pages/Redes(1).html</link>
+<link>https://jrborruecos.github.io/Trabajos/pages/Lenguaje%20de%20marcas.html</link>
 <author>ruboje_aliesma2324@iesmedinaazahara.es</author>
 <category>asignatura</category>
 <pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
 </item>
 <item>
 <title>Redes</title>
-<description>En este artículo encontrará información sobre la asignatura Base de Datos</description>
-<link>https://github.com/jrborruecos/Trabajos/blob/main/pages/Redes(1).html</link>
+<description>En este artículo encontrará información sobre la asignatura Redes</description>
+<link>https://jrborruecos.github.io/Trabajos/pages/Redes(1).html</link>
 <author>ruboje_aliesma2324@iesmedinaazahara.es</author>
 <category>asignatura</category>
 </channel>
