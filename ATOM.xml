@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xml:lang="es" xml:base="https://estherostos.github.io/proyectofhw/">
+<feed xml:lang="es" xmlns="http://www.w3.org/2005/Atom" xml:base="https://estherostos.github.io/proyectofhw/">
 <id>https://jrborruecos.github.io/Trabajos/</id>
 <title>atom</title>
 <updated>2021-12-21T19:06:00+01:00</updated>
