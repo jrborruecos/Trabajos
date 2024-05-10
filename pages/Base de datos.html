@@ -1,39 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base de datos - Grado Superior ASIR</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
     body {
-      background-image: url(../imagenes/fondo\ base\ de\ datos.jpg);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa; /* Color de fondo suave */
+      color: #212529;
+    }
+    header {
+      text-align: center;
+      padding: 20px 0;
     }
     h1 {
-      color: cornsilk;
-      font-size: 45px;
+      font-size: 36px;
+      font-weight: bold;
+      color: #007bff; /* Color azul para el título */
+      margin: 0;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 30px;
     }
     h2 {
-      color: red;
+      font-size: 24px;
+      font-weight: bold;
+      color: #007bff; /* Color azul para los títulos de sección */
+      margin-top: 30px;
     }
     p {
-      color: cornsilk;
+      line-height: 1.6;
+      font-size: 16px;
     }
-    h3 {
-      color: red;
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #343a40; /* Color oscuro para el pie de página */
+      color: #fff;
     }
   </style>
-  <body>
-    <h1>Base De datos</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <h2>Definición</h2>
-    <p>Una base de datos se encarga no solo de almacenar datos, sino también de conectarlos entre sí en una unidad lógica. En términos generales, una base de datos es un conjunto de datos estructurados que pertenecen a un mismo contexto y, en cuanto a su función, se utiliza para administrar de forma electrónica grandes cantidades de información. En este sentido; una biblioteca puede considerarse una base de datos compuesta en su mayoría por documentos y textos impresos en papel e indexados para su consulta. Actualmente, y debido al desarrollo tecnológico de campos como la informática y la electrónica, la mayoría de las bases de datos están en formato digital, siendo este un componente electrónico; por tanto, se ha desarrollado y se ofrece un amplio rango de soluciones al problema del almacenamiento de datos.
-      En las bases de datos, los datos deben estar estructurados e interrelacionados según un modelo que refleje el máximo contenido semántico. Esto significa que los datos se integran, estructuran, relacionan y comparten, y las interrelaciones deben almacenarse junto con los datos, lo que es una diferencia esencial en comparación con los archivos donde las interrelaciones no se almacenan. La redundancia de datos debe controlarse para evitar duplicidades perjudiciales, aunque se admite la redundancia física por motivos de eficiencia. En resumen, no debe existir redundancia lógica en las bases de datos.
-      Hay programas denominados sistemas gestores de bases de datos, abreviado SGBD, que permiten almacenar y posteriormente acceder a los datos de forma rápida y estructurada. Las propiedades de estos DBMS, así como su utilización y administración, se estudian dentro del ámbito de la informática.
-      Las aplicaciones más usuales son para la gestión de empresas e instituciones públicas. También son ampliamente utilizadas en entornos científicos con el objeto de almacenar la información experimental.
-      </p>
-      <h3>Trayectoria</h3>
-      <p>Durante este primer curso de ASIR en la asignatura de Base de Datos hemos realizado un proyecto de nuestra propia base de datos y lo hemos trabajado durante unas semanas en clase. Más tarde empezamos un nuevo bloque donde aprendimo a crear el modelo relacional de una base de datos, posteriormente también aprendimos a realizar la transformación de dicho modelo relacional a tablas para más tarde aplicar normalización</p>
-  </body>
+</head>
+<body>
+  <header>
+    <h1>Base de Datos</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Definición</h2>
+      <p>Una base de datos se encarga no solo de almacenar datos, sino también de conectarlos entre sí en una unidad lógica. En términos generales, una base de datos es un conjunto de datos estructurados que pertenecen a un mismo contexto y se utiliza para administrar grandes cantidades de información. Actualmente, la mayoría de las bases de datos están en formato digital y son gestionadas por sistemas gestores de bases de datos (SGBD).</p>
+    </section>
+
+    <section>
+      <h2>Trayectoria</h2>
+      <p>Durante el primer curso de ASIR en la asignatura de Base de Datos hemos realizado un proyecto propio y lo hemos trabajado en clase. Aprendimos a crear el modelo relacional de una base de datos y realizar la transformación de dicho modelo a tablas, así como aplicar normalización.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Grado Superior ASIR</p>
+  </footer>
+</body>
 </html>
+

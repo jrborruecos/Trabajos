@@ -1,0 +1,92 @@
+body {
+    background-color: #ffffff;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    background-image:url(imagenes/fondo\ pagina\ web.jpg);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .nav-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  footer img {
+    margin: 0 10px;
+  }
+  
+  .footer-link {
+    font-size: 14px;
+  }
+a{
+    font-size: 15px;
+    width: 100%;
+}
