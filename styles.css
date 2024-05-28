@@ -73,13 +73,17 @@ footer {
   margin-top: 50px;
 }
 
-footer img {
-  margin: 0 10px;
+.footer-link img {
+  width: 60px; 
+  height: auto; 
+  display: inline-block; 
+  margin-right: 10px; 
 }
 
 .footer-link {
-  font-size: 14px;
+  text-align: center; 
 }
+
 
 a {
   font-size: 15px;
